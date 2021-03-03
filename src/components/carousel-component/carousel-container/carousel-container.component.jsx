@@ -105,8 +105,7 @@ const Carousel = (props) => {
                     props.children.map((contentItem,index) =><Slide key={index} id={index}>{contentItem}</Slide>)
                 }    
             </div>
-            <div>
-                remove this gap in button parent div style
+            <div className="btn-container">
                 {
                     props.children.map((content, index) => <NavButton goToSlide={goToSlide} key={index} id={index}/>)
                 }

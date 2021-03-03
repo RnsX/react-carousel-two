@@ -19,3 +19,9 @@
   flex-wrap: nowrap;
   margin: auto;
 }
+
+.btn-container {
+  max-block-size: 0;
+  display: flex;
+  justify-content: center;
+}
