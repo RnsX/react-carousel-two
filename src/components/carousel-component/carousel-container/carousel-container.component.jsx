@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './carousel-container.style.css'
-import Slide from  '../carousel-page/carousel-slide.component'
+import Slide from  '../carousel-slide/carousel-slide.component'
 import NavButton from './nav-button.component/carousel-buttons.component'
 
 const Carousel = (props) => {

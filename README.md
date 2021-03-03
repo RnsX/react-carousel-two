@@ -24,13 +24,8 @@
 
 ## Example of use:
 
-1. Import carousel container
-
-```
-import CarouselContainer from './components/carousel-component/carousel-container/carousel-container.component'
-```
-
-2. Place your sliders as html elements in carousel component:
+1. Import carousel-container in your app
+2. Create carousel sliders by placing your html elements in carousel component:
 
 ```
 <CarouselContainer>
@@ -40,3 +35,5 @@ import CarouselContainer from './components/carousel-component/carousel-containe
   <img draggable={false} src={Image3}/>
 </CarouselContainer>
 ```
+
+3. Enjoy the carousel!
