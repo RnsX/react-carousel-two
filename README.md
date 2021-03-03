@@ -17,11 +17,6 @@
 6. Supports infinite option - [Not completed]
 7. Supports scrolling to a selected slide (like go to slide X) - [Yes]
 
-## Change log:
-
-1. carousel now provides easier use for displaying content (either images or html)
-2. navigation buttons are now automatically generated based on slide count
-
 ## Example of use:
 
 1. Import carousel-container in your app
